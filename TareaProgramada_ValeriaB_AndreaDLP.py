@@ -36,8 +36,7 @@ def paint(matrix):
 
 ###función que realiza el random walk y guarda cada iteración###
 def executeg(iterations):
-    #contador
-    start = time.time()
+
 
     #abre o crea un txt llamado prueba
     doc = open("prueba.txt", "w")
@@ -125,9 +124,6 @@ def executeg(iterations):
             np.savetxt(doc, fila)
 
         cont += 1
-
-    end = time.time()
-    print("Tiempo de ejecucion: " + str(end - start))
 
     doc.close()
 
