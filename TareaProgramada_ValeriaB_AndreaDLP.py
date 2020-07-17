@@ -37,7 +37,6 @@ def paint(matrix):
 ###función que realiza el random walk y guarda cada iteración###
 def executeg(iterations):
 
-
     #abre o crea un txt llamado prueba
     doc = open("prueba.txt", "w")
 
